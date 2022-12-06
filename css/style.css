@@ -24,7 +24,6 @@ body {
 
 .header {
     width: 100%;
-
     background-color: var(--bg__primary);
     display: flex;
     justify-content: center;
@@ -57,10 +56,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 100%;
-
-
 }
 
 .nav__ul__li {
@@ -142,10 +138,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
     width: 32px;
     height: 32px;
-
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
@@ -181,14 +175,12 @@ body {
 
 .header__divs {
     width: 100%;
-    height: calc(100% - 70px);
-    /* verificar si hacer esto es practico*/
+    height: calc(100% - 70px);    /* verificar si hacer esto es practico*/
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     z-index: 2;
-    /* margin: 4rem 0rem; */
     font-family: 'PassionSansPDae';
 }
 
@@ -304,6 +296,11 @@ body {
 }
 
 @media screen and (max-width:1600px) {
+    .header__container {
+        width: 85%;
+        transition: all .5s;
+    }
+
     .header__div:last-child {
 
         margin-right: 2rem;
@@ -327,18 +324,12 @@ body {
 
     .header__div:last-child {
         position: relative;
-        /*  width: 200px;
-        height: 300px; */
         align-items: flex-end;
         margin-right: 2rem;
     }
 
     .header__div:first-child {
         padding: 0em 1em;
-    }
-
-    .header__divs {
-        /* margin: 7.7rem 0rem; */
     }
 }
 
@@ -366,7 +357,6 @@ body {
 @media screen and (max-width:900px) {
     .header__divs {
         height: 100%;
-        /* margin: 12rem 0rem 8rem 0rem; */
     }
 
     .nav {
@@ -409,7 +399,6 @@ body {
         top: 0%;
         right: 0%;
         z-index: 10;
-
     }
 
     .cubito__span {
@@ -447,9 +436,7 @@ body {
     .header__divs {
         flex-direction: column;
         gap: 0px;
-        
         justify-content: space-evenly;
-        /* margin: 7rem 0rem 3rem 0rem; */
     }
 
     .header__div__h1 {
@@ -543,7 +530,6 @@ body {
         align-items: flex-end;
         transition: all 0.5s;
         margin-right: 0em;
-        /*margin-top: 5rem; */
     }
 
     .header__div:last-child::before {
@@ -554,7 +540,6 @@ body {
 
     }
     .header__div__h2{
-  
         margin: 2rem auto;
     }
 
