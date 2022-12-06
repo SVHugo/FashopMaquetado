@@ -509,6 +509,9 @@ body {
         gap: 20px;
         
     }
+    .header__div:first-child {
+         padding: 0em; 
+    }
 
     .header__div__h1 {
         display: none;
