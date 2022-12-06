@@ -510,7 +510,7 @@ body {
     .header__div__h2 {
         transition: all 0.5s;
         display: block;
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 
     .header__div__h2::after {
