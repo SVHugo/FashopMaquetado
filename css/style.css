@@ -146,7 +146,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: 1px solid #0a0a0a;
+    box-shadow: 0px 0px .2rem 2px rgba(0, 0, 0, 30%);
     display: none;
     font-weight: 600;
     cursor: pointer;
@@ -335,6 +335,7 @@ body {
         z-index: 5;
         gap: 30px;
         overflow: hidden;
+        transition: all 0.5s;
     }
     .nav__ul{
         height: 100%;
@@ -352,12 +353,33 @@ body {
         top: 0%;
         right: 0%;
         z-index: 10;
+        
     }
-    .nav__div__cubito > span{
+    .cubito__span{
+        transition: all .5s;
         display: block;
         width: 20px;
         height: 2px;
         background: black;
+
+
+    }
+
+    /* ESTILOS QUE USARE PARA EL JAVASCRIPT*/
+    .nav--show{
+        height: 100%;
+    }
+    .nav--hidden{
+        height: 70px;
+    }
+    .cubito--style{
+        transition: all .5s;
+        background: #fc7702;
+        border: 0px;
+        box-shadow: 0px 0px 1rem 4px #fc7702;
+    }
+    .span--style{
+        background: white;
     }
 }
 @media screen and (max-width:800px) {
@@ -452,4 +474,7 @@ body {
     .header__div_enlaces{
         margin: 0 auto;
     }
+    
+    
+    
 }
