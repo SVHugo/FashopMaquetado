@@ -565,6 +565,7 @@ body {
 
     .header__div_enlaces {
         margin: 0 auto;
+        gap: 20px;
     }
 
 
