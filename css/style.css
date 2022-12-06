@@ -35,7 +35,7 @@ body {
     margin: 3rem 0rem;
     width: 75%;
     min-height: 100%;
-    height: auto;
+    height: 800px;
     background: url("../img/fondo_header.png");
     background-repeat: no-repeat;
     background-position: center;
