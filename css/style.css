@@ -499,7 +499,7 @@ body {
 @media screen and (max-width:650px) {
     .header__divs {
         flex-direction: column;
-        gap: 0px;
+        gap: 20px;
         
     }
 
